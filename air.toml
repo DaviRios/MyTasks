@@ -1,0 +1,9 @@
+root = "."  # The root directory of the project
+tmp_dir = "tmp"  # The temporary directory where Air will store temporary files
+
+[build]  # BUILD CONFIG
+  bin = "main"  # Bin name generated after build
+  cmd = "go build -o {{.Output}} {{.Cmd}}"
+  exclude = ["temp/*", "client/*"]
+  include = ["**/*.go"]
+  ignore = ["tmp/*"]
