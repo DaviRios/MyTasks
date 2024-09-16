@@ -28,6 +28,9 @@ vendor/
 *.out
 
 # Ignore main.exe inside tmp folder
+
 /tmp/main.exe
+
+../tmp/main.exe
 
 # Dependency directories (remove the comment below if you are using dep)
